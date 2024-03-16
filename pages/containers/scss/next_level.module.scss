@@ -1,0 +1,29 @@
+.nextLevel {
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  border-top: 1px solid #000;
+
+  .paraWrapper {
+    width: 25%;
+    padding-left: 68px;
+    border-right: 1px solid #000;
+    .para {
+      font-size: 14px;
+      font-weight: 400;
+      padding-top: 68px;
+    }
+  }
+  .detail {
+    width: 65%;
+    padding-top: 68px;
+    font-weight: 700;
+    font-size: 96px;
+    color: #d9d9d9;
+    text-transform: uppercase;
+    margin-right: 3rem;
+    .next {
+      text-decoration: underline;
+    }
+  }
+}

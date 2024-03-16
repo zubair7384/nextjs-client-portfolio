@@ -1,0 +1,35 @@
+.twoBanner {
+  display: flex;
+  height: 600px;
+
+  .twoWrapper {
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    width: 40%;
+    height: 600px;
+    border-left: 1px solid #0500ff;
+  }
+  .twoDescWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding-right: 50px;
+    .twoPara {
+      font-weight: 400;
+      font-size: 14px;
+      color: #0500ff;
+      margin-bottom: 2rem;
+    }
+    .twoDesc {
+      width: 700px;
+      color: #0500ff;
+      font-weight: 400;
+      font-size: 48px;
+      .comp {
+        text-decoration: underline;
+      }
+    }
+  }
+}

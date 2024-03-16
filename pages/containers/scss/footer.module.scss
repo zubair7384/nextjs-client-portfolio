@@ -1,0 +1,52 @@
+.footer {
+  background-color: #0500ff;
+  .footerTextWrapper {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    padding-left: 68px;
+    border-bottom: 1px solid #fff;
+    .footerText {
+      width: 75%;
+      font-weight: 400;
+      font-size: 48px;
+      color: #fff;
+    }
+  }
+  .number,
+  .email {
+    border-bottom: 1px solid #fff;
+    font-size: 96px;
+    color: #fff;
+    padding: 20px 68px;
+  }
+  .socialWrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+
+    .insta,
+    .link {
+      font-size: 96px;
+      padding: 20px 68px;
+      color: #fff;
+      text-decoration: line-through;
+    }
+    .insta {
+      width: 50%;
+      border-right: 1px solid #fff;
+    }
+  }
+  .copyWrapper {
+    height: 250px;
+    padding: 68px;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    .p {
+      color: #fff;
+      width: 30%;
+    }
+  }
+}

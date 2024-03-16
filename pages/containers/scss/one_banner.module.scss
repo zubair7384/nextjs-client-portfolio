@@ -1,0 +1,33 @@
+.oneBanner {
+  display: flex;
+  height: 600px;
+  background-color: #0500ff;
+
+  .oneWrapper {
+    display: flex;
+    width: 40%;
+    height: 600px;
+    border-right: 1px solid #fff;
+  }
+  .oneDescWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    .onePara {
+      font-weight: 400;
+      font-size: 14px;
+      color: #fff;
+      margin-bottom: 2rem;
+    }
+    .oneDesc {
+      width: 800px;
+      color: #fff;
+      font-weight: 400;
+      font-size: 48px;
+      .comp {
+        text-decoration: underline;
+      }
+    }
+  }
+}
